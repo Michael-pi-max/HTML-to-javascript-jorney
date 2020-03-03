@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="image/icon.png">
+    <link rel="icon" href="asset/image/icon.png">
     <title>Michael Solomon</title>
 </head>
 
@@ -21,7 +21,7 @@
 
     <table cellspacing=10>
         <tr>
-            <td> <img src="image/me.jpg" alt="Michael Solomon's profile picture" width="400" height="400"></td>
+            <td> <img src="asset/image/me.jpg" alt="Michael Solomon's profile picture" width="400" height="400"></td>
             <td>
                 <h1>Michael Solomon</h1>
                 <h3>Student, Addis Ababa</h3>
@@ -34,18 +34,22 @@
     <hr>
     <!-- Contact form.. -->
     <h3>Leave your comment here</h3>
-    <form>
-        <label for="fName">First Name: </label>
+    <form method="GET"  enctype="utf-8">
+        <label for="fName">First Name: </label>&nbsp;&nbsp;
         <input type="text" name="firstName" id="fName">
         <br>
         <br>
-        <label for="lName">Last Name: </label>
+        <label for="lName">Last Name: </label>&nbsp;&nbsp;
         <input type="text" name="lastName" id="lName">
         <br>
         <br>
-        <label for="email">Email: </label>
+        <label for="email">Email: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="email" name="email" id="email">
         <br>
+        <select name="country" id="">
+            <option value="Asia">Asia</option>
+            <option valuse="Africa">Africa</option>
+        </select>
         <br>
         <label for="detail">What do you say?</label>
         <br>
@@ -62,6 +66,10 @@
     <a href="http://www.facebook.com/" target="_blank">FaceBook |</a>
     <a href="http://www.twitter.com" target="_blank">Twitter |</a>
     <a href="http://www.youtube.com" target="_blank">youTube</a>
+    <hr>
+
+    <hr>
+    <p align="center">Developed by Michael Solomon &copy;2020</p>
     <hr>
 
 </body>
